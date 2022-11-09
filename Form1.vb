@@ -25,6 +25,7 @@ Public Class Form1
                 Bot(i, j).Width = 70
                 Bot(i, j).Height = 70
                 Bot(i, j).Top = 70 * i
+                Bot(i, j).Left = 70 * j
                 AddHandler Bot(i, j).Click, AddressOf AC_click
             Next j
         Next i
